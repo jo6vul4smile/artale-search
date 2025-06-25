@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artale 搜查兵</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Artale 搜查兵</h1>
+    <input type="text" id="keyword" placeholder="輸入物品關鍵字...">
+    <button onclick="search()">查價</button>
+
+    <div id="results"></div>
+
+    <h2>🔥 熱門查詢</h2>
+    <div id="hot-keywords">
+        <button onclick="quickSearch('白捲')">白捲</button>
+        <button onclick="quickSearch('魔攻盾')">魔攻盾</button>
+        <button onclick="quickSearch('套服幸運卷軸')">套服幸運卷軸</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
